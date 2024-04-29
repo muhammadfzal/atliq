@@ -34,85 +34,91 @@ const SEO = () => {
       </section>
 
       {/* New Section */}
-      <section style={{ paddingBottom: '100PX' }}>
-        <div className="container">
-          {/* First Row */}
-          <div className="row">
-            {/* First Column */}
-            <div className="col-md-4 mb-4">
-              <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', width: '400px', height: '200px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000' }}>
-                <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>content Analysis</h2>
-                <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>A readable content which is furnished with multiple on-page
-                  optimization factors helps in achieving a higher page rank in the search engines.</h5>
-              </div>
-            </div>
-            {/* Second Column */}
-            <div className="col-md-4 mb-4">
-              <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', width: '400px', height: '200px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000' }}>
-                <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>PPC Management</h2>
-                <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Pay Per Click (PPC) is an internet marketing model which is built around the concept of placing paid ads</h5>
-              </div>
-            </div>
-            {/* Third Column */}
-            <div className="col-md-4 mb-4">
-              <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', width: '400px', height: '200px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000' }}>
-                <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Link Building</h2>
-                <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Link Building is an internet marketing process that involves obtaining website traffic through links on other pages.</h5>
-              </div>
-            </div>
-          </div>
 
-          {/* Second Row */}
-          <div className="row">
-            {/* Fourth Column */}
-            <div className="col-md-4 mb-4">
-              <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', width: '400px', height: '200px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000' }}>
-                <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Social Media </h2>
-                <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Social Media Optimization (SMO) makes use of several social media platforms to market your product</h5>
-              </div>
-            </div>
-            {/* Fifth Column */}
-            <div className="col-md-4 mb-4">
-              <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', width: '400px', height: '200px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000' }}>
-                <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Reputation Management</h2>
-                <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>In today’s digitized world, customer feedback on an online platform plays a massive role in determining the reputation</h5>
-              </div>
-            </div>
-            {/* Sixth Column */}
-            <div className="col-md-4 mb-4">
-              <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', width: '400px', height: '200px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000' }}>
-                <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Keyword Research</h2>
-                <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Our extensive research, coupled with intensive analysis, ensures that your website is equipped</h5>
-              </div>
-            </div>
-          </div>
-
-          {/* Third Row */}
-          <div className="row">
-            {/* Seventh Column */}
-            <div className="col-md-4 mb-4">
-              <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', width: '400px', height: '200px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000' }}>
-                <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Local SEO</h2>
-                <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Social Media Optimization (SMO) makes use of several social media platforms to market your product</h5>
-              </div>
-            </div>
-            {/* Eighth Column */}
-            <div className="col-md-4 mb-4">
-              <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', width: '400px', height: '200px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000' }}>
-                <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>On page Optimization</h2>
-                <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Critical factors such as keyword density, Meta tags, page content, headers and footers, and others need to be carefully</h5>
-              </div>
-            </div>
-            {/* Ninth Column */}
-            <div className="col-md-4 mb-4">
-              <div className="box" style={{ borderRadius: '20px', boxShadow: '0 5px 20px #5C4033', width: '400px', height: '200px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000' }}>
-                <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Site Speed & Internal Linking</h2>
-                <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>While fast, accessible sites are ranked high in popular search engines.</h5>
-              </div>
-            </div>
-          </div>
+      
+      <section style={{ paddingBottom: '100px' }}>
+  <div className="container">
+    {/* First Row */}
+    <div className="row">
+      {/* First Column */}
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000', height: '100%' }}>
+          <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Content Analysis</h2>
+          <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>A readable content which is furnished with multiple on-page optimization factors helps in achieving a higher page rank in the search engines.</h5>
         </div>
-      </section>
+      </div>
+      {/* Second Column */}
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000', height: '100%' }}>
+          <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>PPC Management</h2>
+          <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Pay Per Click (PPC) is an internet marketing model which is built around the concept of placing paid ads</h5>
+        </div>
+      </div>
+      {/* Third Column */}
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000', height: '100%' }}>
+          <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Link Building</h2>
+          <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Link Building is an internet marketing process that involves obtaining website traffic through links on other pages.</h5>
+        </div>
+      </div>
+    </div>
+
+    {/* Second Row */}
+    <div className="row">
+      {/* Fourth Column */}
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000', height: '100%' }}>
+          <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Social Media </h2>
+          <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Social Media Optimization (SMO) makes use of several social media platforms to market your product</h5>
+        </div>
+      </div>
+      {/* Fifth Column */}
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000', height: '100%' }}>
+          <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Reputation Management</h2>
+          <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>In today’s digitized world, customer feedback on an online platform plays a massive role in determining the reputation</h5>
+        </div>
+      </div>
+      {/* Sixth Column */}
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000', height: '100%' }}>
+          <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Keyword Research</h2>
+          <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Our extensive research, coupled with intensive analysis, ensures that your website is equipped</h5>
+        </div>
+      </div>
+    </div>
+
+    {/* Third Row */}
+    <div className="row">
+      {/* Seventh Column */}
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000', height: '100%' }}>
+          <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Local SEO</h2>
+          <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Social Media Optimization (SMO) makes use of several social media platforms to market your product</h5>
+        </div>
+      </div>
+      {/* Eighth Column */}
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className="box" style={{ boxShadow: '0 5px 20px #5C4033', borderRadius: '20px', backgroundColor: '#fff', padding: '20px', border: '1px solid #000', height: '100%' }}>
+          <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>On page Optimization</h2>
+          <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Critical factors such as keyword density, Meta tags, page content, headers and footers, and others need to be carefully</h5>
+        </div>
+      </div>
+      {/* Ninth Column */}
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className="box" style={{ borderRadius: '20px', boxShadow: '0 5px 20px #5C4033', backgroundColor: '#fff', padding: '20px', border: '1px solid #000', height: '100%' }}>
+          <h2 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>Site Speed & Internal Linking</h2>
+          <h5 style={{ textAlign: 'center', color: '#426B67', fontFamily: 'Libre Baskerville' }}>While fast, accessible sites are ranked high in popular search engines.</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
       <section style={{ padding: '50px 0', backgroundColor: '#e3e5e8' }}>
         <div className="container">
           <div className="row">

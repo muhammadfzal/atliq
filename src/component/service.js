@@ -1,42 +1,33 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import backgroundImage from '../images/Front End/home-bnner1.jpg';
 import imageSrc2 from '../images/Service/service-section2-copy.jpg'
-import imageSrc3 from '../images/Service/service-section3-copy.jpg'
+import imageSrc3 from '../images/SEO/seonew.jpg'
+import imageSrc1 from '../images/Service/service-section.815.jpg'
 import '../index.css'
 
 const Service = () => {
   return (
     <div>
 
-      <section style={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: 'cover',
-        padding: '500px 0',
-        minHeight: '750px',// Adjust the minHeight as needed,
-      }}>
-
-      </section>
       <section
         style={{
-          display: 'flex',
-          alignItems: 'center',
-          minHeight: '750px',
-        }}
-      >
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: 'cover',
+          padding: '100px 0', // Reduce padding for smaller screens
+          minHeight: '500px', // Adjust min-height for smaller screens
+        }}>
+
+      </section>
+
+      <section className="d-flex align-items-center" style={{ minHeight: '750px', paddingTop: "10%" }}>
         <div className="container">
-          <div className="row" style={{
-
-          }}>
-            <div className="col-md-6 mb-4" style={{ marginBottom: '20px' }}>
-              <h2 style={{
-                fontSize: '36px',
-                fontFamily: 'Libre Baskerville',
-                color: '#426B67',
-                fontWeight: '500',
-
-              }}>
-                Front End UI/UX design for Web and Mobile Apps</h2>
-              <p style={{ color: '#426B67', fontSize: '25px', marginBottom: '20px' }}>
+          <div className="row">
+            <div className="col-md-6 mb-4">
+              <h2 className=" fw-normal" style={{ fontSize: '36px', fontFamily: 'Libre Baskerville', color: '#426B67' }}>
+                Front End UI/UX design for Web and Mobile Apps
+              </h2>
+              <p style={{ fontSize: '25px', color: '#426B67' }}>
                 User Experience (UX) plays a huge role in striking a chord with the customer who
                 visits the website. An appealing and vibrant User Interface (UI) improves the possibility of
                 an increased user engagement and ascertaining the brand’s
@@ -45,9 +36,9 @@ const Service = () => {
             </div>
             <div className="col-md-6 mb-4">
               <img
-                src={imageSrc3}
-                alt="Service Section Imge"
-                style={{ maxWidth: '100%', height: 'auto', paddingLeft: '50px' }}
+                src={imageSrc1}
+                alt="Service Section Image"
+                className="img-fluid pe-md-5"
               />
             </div>
           </div>
@@ -84,7 +75,7 @@ const Service = () => {
       </section>
 
 
-      <section
+      {/* <section
         style={{
           display: 'flex',
           alignItems: 'center',
@@ -120,7 +111,33 @@ const Service = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+<section className="d-flex align-items-center" style={{ minHeight: '750px' }}>
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-6 mb-4">
+            <h2 className="text-custom" style={{ fontSize: '36px', fontFamily: 'Libre Baskerville', fontWeight: '500',  color: '#426B67'}}>
+              SEO & Digital Marketing
+            </h2>
+            <p className="text-custom" style={{ fontSize: '25px', marginBottom: '20px' ,color: '#426B67'}}>
+              Optimizing a website for search engines is absolutely essential for
+              any business to gain a strong foothold in the virtual world. SEO, by helping achieve
+              a higher page rank, enables the website to garner targeted traffic organically. Digital Marketing, on the other hand, makes a business reach a wider range of audiences by increasing the
+              visibility on social media platforms like Facebook and Twitter.
+            </p>
+          </div>
+          <div className="col-12 col-md-6 mb-4">
+            <img
+              src={imageSrc3}
+              alt="Service Section Image"
+              className="img-fluid pe-md-5" // Ensures the image is responsive and adds right padding on medium screens and above
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
       <section style={{ padding: '50px 0', backgroundColor: '#e3e5e8' }}>
         <div className="container">
           <div className="row">
