@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import backgroundImage from '../images/Front End/home-bnner1.jpg';
-import imageSrc2 from '../images/Front End/section2.avif'
+import imageSrc2 from '../images/Front End/6.jpg'
 import imageSrc3 from '../images/Front End/section1-copy.jpg'
 import '../index.css'
 
@@ -13,9 +14,6 @@ const FrontEnd = () => {
         backgroundSize: 'cover',
         padding: '500px 0',
         minHeight: '750px',
-
-
-
       }}>
 
       </section>
@@ -51,7 +49,7 @@ const FrontEnd = () => {
               <img
                 src={imageSrc3}
                 alt="Service Section Imge"
-                style={{ maxWidth: '100%', height: 'auto', paddingLeft: '50px' }}
+                style={{ maxWidth: '95%', height: 'auto', display: 'block', marginLeft: 'auto', marginRight: 'auto' }}
               />
             </div>
           </div>
@@ -64,11 +62,12 @@ const FrontEnd = () => {
         <div className="container ">
           <div className="row">
             <div className="col-md-6 mb-4 ">
-              <img
-                src={imageSrc2}
-                alt="Service Section Imge"
-                style={{ maxWidth: '100%', height: 'auto' }}
-              />
+            <img
+  src={imageSrc2}
+  alt="Service Section Image"
+  style={{ maxWidth: '95%', height: 'auto', display: 'block', marginLeft: 'auto', marginRight: 'auto' }}
+/>
+
             </div>
             <div className="col-md-6 mb-4" style={{ paddingLeft: '5%', paddingRight: '5%' }}>
               <h2 style={{
@@ -86,70 +85,46 @@ const FrontEnd = () => {
           </div>
         </div>
       </section>
-      <section style={{ paddingTop: '6%', paddingLeft: '5%', paddingRight: '5%', paddingBottom: '6%' }}>
-        <div style={{ display: 'flex' }}>
-          <div style={{ flex: 1, margin: '0 10px' }}>
+      <section className="container py-5">
+        <div className="row justify-content-center">
+          <div className="col-md-6 col-lg-3 my-2 text-center">
             <div style={circleStyle}></div>
-            <h2 style={{
-              paddingLeft: '70px', paddingTop: '10%', fontSize: '36px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>Requirements </h2>
-            <h5 style={{
-              paddingLeft: '70px', paddingTop: '10%', fontSize: '26px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>User-focused, intuitive, consistent, accessible, responsive,
-              aesthetic, and functional design.</h5>
+            <h2 className="mt-3" style={{ fontSize: '1.5rem', fontFamily: 'Libre Baskerville', color: '#426B67', fontWeight: '500' }}>
+              Requirements
+            </h2>
+            <h5 style={{ fontSize: '1.1rem', fontFamily: 'Libre Baskerville', color: '#426B67', fontWeight: '500' }}>
+              User-focused, intuitive, consistent, accessible, responsive,
+              aesthetic, and functional design.
+            </h5>
           </div>
-          <div style={{ flex: 1, margin: '0 10px' }}>
+          <div className="col-md-6 col-lg-3 my-2 text-center">
             <div style={circleStyle}></div>
-            <h2 style={{
-              paddingLeft: '70px', paddingTop: '10%', fontSize: '36px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>UX/UI Design</h2>
-            <h5 style={{
-              paddingLeft: '70px', paddingTop: '10%', fontSize: '26px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>Understanding users, intuitive design, visually appealing,
-              accessible, and responsive.</h5>
+            <h2 className="mt-3" style={{ fontSize: '1.5rem', fontFamily: 'Libre Baskerville', color: '#426B67', fontWeight: '500' }}>
+              UX/UI Design
+            </h2>
+            <h5 style={{ fontSize: '1.1rem', fontFamily: 'Libre Baskerville', color: '#426B67', fontWeight: '500' }}>
+              Understanding users, intuitive design, visually appealing,
+              accessible, and responsive.
+            </h5>
           </div>
-          <div style={{ flex: 1, margin: '0 10px' }}>
+          <div className="col-md-6 col-lg-3 my-2 text-center">
             <div style={circleStyle}></div>
-            <h2 style={{
-              paddingLeft: '70px', paddingTop: '10%', fontSize: '36px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>Visual Design</h2>
-            <h5 style={{
-              paddingLeft: '70px', paddingTop: '10%', fontSize: '26px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>Aesthetically pleasing, cohesive, functional,
-              engaging, and user-centric graphic presentation.</h5>
+            <h2 className="mt-3" style={{ fontSize: '1.5rem', fontFamily: 'Libre Baskerville', color: '#426B67', fontWeight: '500' }}>
+              Visual Design
+            </h2>
+            <h5 style={{ fontSize: '1.1rem', fontFamily: 'Libre Baskerville', color: '#426B67', fontWeight: '500' }}>
+              Aesthetically pleasing, cohesive, functional,
+              engaging, and user-centric graphic presentation.
+            </h5>
           </div>
-          <div style={{ flex: 1, margin: '0 10px' }}>
+          <div className="col-md-6 col-lg-3 my-2 text-center">
             <div style={circleStyle}></div>
-            <h2 style={{
-              paddingLeft: '70px', paddingTop: '10%', fontSize: '36px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>App Design QW Testing</h2>
-            <h5 style={{
-              paddingLeft: '70px', paddingTop: '0%', fontSize: '26px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>Ensuring functionality, usability, compatibility, and performance of app through testing.</h5>
+            <h2 className="mt-3" style={{ fontSize: '1.5rem', fontFamily: 'Libre Baskerville', color: '#426B67', fontWeight: '500' }}>
+              App Design QW Testing
+            </h2>
+            <h5 style={{ fontSize: '1.1rem', fontFamily: 'Libre Baskerville', color: '#426B67', fontWeight: '500' }}>
+              Ensuring functionality, usability, compatibility, and performance of app through testing.
+            </h5>
           </div>
         </div>
       </section>

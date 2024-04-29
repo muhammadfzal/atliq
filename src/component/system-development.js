@@ -12,8 +12,8 @@ const FrontEnd = () => {
       <section style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover',
-        padding: '500px 0',
-        minHeight: '750px',
+      
+        minHeight: '300px',
 
       }}>
       </section>
@@ -21,7 +21,7 @@ const FrontEnd = () => {
         style={{
           display: 'flex',
           alignItems: 'center',
-          minHeight: '750px',
+          minHeight: '550px',
         }}
       >
         <div className="container">
@@ -45,7 +45,7 @@ const FrontEnd = () => {
               <img
                 src={imageSrc3}
                 alt="Service Section Imge"
-                style={{ maxWidth: '100%', height: 'auto', paddingLeft: '50px' }}
+                style={{ maxWidth: '95%', height: 'auto', display: 'block', marginLeft: 'auto', marginRight: 'auto' }}
               />
             </div>
           </div>
@@ -62,7 +62,7 @@ const FrontEnd = () => {
               <img
                 src={imageSrc2}
                 alt="Service Section Imge"
-                style={{ maxWidth: '100%', height: 'auto' }}
+                style={{ maxWidth: '95%', height: 'auto', display: 'block', marginLeft: 'auto', marginRight: 'auto' }}
               />
             </div>
             <div className="col-md-6 mb-4" style={{ paddingLeft: '5%', paddingRight: '5%' }}>
@@ -79,74 +79,93 @@ const FrontEnd = () => {
           </div>
         </div>
       </section>
-      <section style={{ paddingTop: '6%', paddingLeft: '5%', paddingRight: '5%', paddingBottom: '6%' }}>
-        <div style={{ display: 'flex' }}>
-          <div style={{ flex: 1, margin: '0 10px' }}>
-            <div style={circleStyle}></div>
-            <h2 style={{
-              paddingLeft: '70px', paddingTop: '10%', fontSize: '36px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>Requirements </h2>
-            <h5 style={{
-              paddingLeft: '70px', paddingTop: '10%', fontSize: '26px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>User-focused, intuitive, consistent, accessible, responsive,
-              aesthetic, and functional design.</h5>
-          </div>
-          <div style={{ flex: 1, margin: '0 10px' }}>
-            <div style={circleStyle}></div>
-            <h2 style={{
-              paddingLeft: '70px', paddingTop: '10%', fontSize: '36px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>UX/UI Design</h2>
-            <h5 style={{
-              paddingLeft: '70px', paddingTop: '10%', fontSize: '26px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>Understanding users, intuitive design, visually appealing,
-              accessible, and responsive.</h5>
-          </div>
-          <div style={{ flex: 1, margin: '0 10px' }}>
-            <div style={circleStyle}></div>
-            <h2 style={{
-              paddingLeft: '70px', paddingTop: '10%', fontSize: '36px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>Visual Design</h2>
-            <h5 style={{
-              paddingLeft: '70px', paddingTop: '10%', fontSize: '26px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>Aesthetically pleasing, cohesive, functional,
-              engaging, and user-centric graphic presentation.</h5>
-          </div>
-          <div style={{ flex: 1, margin: '0 10px' }}>
-            <div style={circleStyle}></div>
-            <h2 style={{
-              paddingLeft: '70px', paddingTop: '10%', fontSize: '36px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>App Design QW Testing</h2>
-            <h5 style={{
-              paddingLeft: '70px', paddingTop: '0%', fontSize: '26px',
-              fontFamily: 'Libre Baskerville',
-              color: '#426B67',
-              fontWeight: '500',
-            }}>Ensuring functionality, usability, compatibility, and performance of app through testing.</h5>
-          </div>
-        </div>
-      </section>
+    
 
+  <section className="">
+  <div className="container">
+    <div className="row justify-content-center">
+      <div className="col-12 col-md-6 col-lg-3 mb-3">
+        <div style={circleStyle}></div>
+        <h2 style={{
+          textAlign: 'center',
+          fontSize: '36px',
+          fontFamily: 'Libre Baskerville',
+          color: '#426B67',
+          fontWeight: '500',
+        }}>Requirements</h2>
+        <h5 style={{
+          textAlign: 'center',
+          fontSize: '26px',
+          fontFamily: 'Libre Baskerville',
+          color: '#426B67',
+          fontWeight: '500',
+        }}>
+          User-focused, intuitive, consistent, accessible, responsive,
+          aesthetic, and functional design.
+        </h5>
+      </div>
+      <div className="col-12 col-md-6 col-lg-3 mb-3">
+        <div style={circleStyle}></div>
+        <h2 style={{
+          textAlign: 'center',
+          fontSize: '36px',
+          fontFamily: 'Libre Baskerville',
+          color: '#426B67',
+          fontWeight: '500',
+        }}>UX/UI Design</h2>
+        <h5 style={{
+          textAlign: 'center',
+          fontSize: '26px',
+          fontFamily: 'Libre Baskerville',
+          color: '#426B67',
+          fontWeight: '500',
+        }}>
+          Understanding users, intuitive design, visually appealing,
+          accessible, and responsive.
+        </h5>
+      </div>
+      <div className="col-12 col-md-6 col-lg-3 mb-3">
+        <div style={circleStyle}></div>
+        <h2 style={{
+          textAlign: 'center',
+          fontSize: '36px',
+          fontFamily: 'Libre Baskerville',
+          color: '#426B67',
+          fontWeight: '500',
+        }}>Visual Design</h2>
+        <h5 style={{
+          textAlign: 'center',
+          fontSize: '26px',
+          fontFamily: 'Libre Baskerville',
+          color: '#426B67',
+          fontWeight: '500',
+        }}>
+          Aesthetically pleasing, cohesive, functional,
+          engaging, and user-centric graphic presentation.
+        </h5>
+      </div>
+      <div className="col-12 col-md-6 col-lg-3 mb-3">
+        <div style={circleStyle}></div>
+        <h2 style={{
+          textAlign: 'center',
+          fontSize: '36px',
+          fontFamily: 'Libre Baskerville',
+          color: '#426B67',
+          fontWeight: '500',
+        }}>App Design QW Testing</h2>
+        <h5 style={{
+          textAlign: 'center',
+          fontSize: '26px',
+          fontFamily: 'Libre Baskerville',
+          color: '#426B67',
+          fontWeight: '500',
+        }}>
+          Ensuring functionality, usability, compatibility, and performance of app through testing.
+        </h5>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section style={{ padding: '50px 0', backgroundColor: '#e3e5e8' }}>
         <div className="container">
@@ -209,7 +228,7 @@ const FrontEnd = () => {
 
 const circleStyle = {
   width: '170px',
-  height: '190px',
+  height: '50px',
   borderRadius: '50%',
   paddingTop: '10%',
   margin: '0 auto 10px',
